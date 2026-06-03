@@ -21,6 +21,17 @@
 </div>
 {{- if not (.Page.Store.Get "glightbox-loaded") -}}
 {{- .Page.Store.Set "glightbox-loaded" true -}}
+{{- /* Blowfish's gallery grid assets — vendor.html only loads these for its own
+       gallery shortcode, so load them here for ours. */}}
+{{- with resources.Get "css/components/gallery.css" | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+{{- end }}
+{{- with resources.Get "lib/packery/packery.pkgd.min.js" | fingerprint }}
+<script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{- end }}
+{{- with resources.Get "js/shortcodes/gallery.js" | minify | fingerprint }}
+<script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{- end }}
 {{- with resources.Get "lib/glightbox/glightbox.min.css" | fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
 {{- end }}
