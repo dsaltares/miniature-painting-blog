@@ -1,0 +1,33 @@
+{{- /*
+  Gallery grid (Blowfish styling) with a GLightbox fullscreen lightbox:
+  click an image to open it full-res with prev/next arrows.
+
+  Usage: lightbox-gallery glob="*.jpg"
+  Optional: class="grid-w50 md:grid-w33" (per-image width classes)
+*/ -}}
+{{- $glob := .Get "glob" | default "*.jpg" -}}
+{{- $class := .Get "class" | default "grid-w50 md:grid-w33" -}}
+{{- $images := .Page.Resources.Match $glob -}}
+{{- if not $images -}}
+  {{- warnf "lightbox-gallery: no images match %q in %s" $glob .Page.File.Path -}}
+{{- end -}}
+{{ if not .Parent }}<div class="width-patch"></div>{{ end }}
+<div class="gallery">
+  {{- range $images }}
+  <a href="{{ .RelPermalink }}" class="glightbox {{ $class }}" style="display:block">
+    <img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="nozoom" style="width:100%" loading="lazy" />
+  </a>
+  {{- end }}
+</div>
+{{- if not (.Page.Store.Get "glightbox-loaded") -}}
+{{- .Page.Store.Set "glightbox-loaded" true -}}
+{{- with resources.Get "lib/glightbox/glightbox.min.css" | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+{{- end }}
+{{- with resources.Get "lib/glightbox/glightbox.min.js" | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{- end }}
+<script>
+  GLightbox({ selector: ".glightbox", touchNavigation: true, loop: true });
+</script>
+{{- end -}}
