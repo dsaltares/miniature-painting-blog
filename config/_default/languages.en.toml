@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "Miniature Painting Blog"
+title = "Saltares Miniatures"
 
 [params]
   displayName = "EN"
