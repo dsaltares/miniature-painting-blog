@@ -16,6 +16,7 @@ title = "Saltares Miniatures"
 
 [params.author]
   name = "David Saltares"
+  image = "img/author.jpg"
   headline = "Miniature painting & wargaming"
   links = [
     { github = "https://github.com/dsaltares" },
