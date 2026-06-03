@@ -1,0 +1,36 @@
+/* Parchment — a warm, autumnal scheme for a fantasy/historical wargaming blog.
+   Neutrals: warm stone (parchment light mode, dark leather-brown dark mode)
+   Primary: amber gold | Secondary: burnt rust */
+:root {
+  --color-neutral: 255, 255, 255;
+  --color-neutral-50: 250, 248, 244;
+  --color-neutral-100: 245, 242, 235;
+  --color-neutral-200: 231, 226, 215;
+  --color-neutral-300: 214, 207, 192;
+  --color-neutral-400: 168, 158, 141;
+  --color-neutral-500: 120, 111, 96;
+  --color-neutral-600: 87, 80, 68;
+  --color-neutral-700: 68, 61, 51;
+  --color-neutral-800: 41, 35, 29;
+  --color-neutral-900: 28, 23, 18;
+  --color-primary-50: 255, 251, 235;
+  --color-primary-100: 254, 243, 199;
+  --color-primary-200: 253, 230, 138;
+  --color-primary-300: 252, 211, 77;
+  --color-primary-400: 251, 191, 36;
+  --color-primary-500: 245, 158, 11;
+  --color-primary-600: 217, 119, 6;
+  --color-primary-700: 180, 83, 9;
+  --color-primary-800: 146, 64, 14;
+  --color-primary-900: 120, 53, 15;
+  --color-secondary-50: 255, 246, 241;
+  --color-secondary-100: 255, 232, 220;
+  --color-secondary-200: 254, 194, 166;
+  --color-secondary-300: 252, 142, 91;
+  --color-secondary-400: 251, 91, 15;
+  --color-secondary-500: 187, 62, 3;
+  --color-secondary-600: 147, 49, 2;
+  --color-secondary-700: 107, 35, 2;
+  --color-secondary-800: 67, 22, 1;
+  --color-secondary-900: 26, 9, 0;
+}

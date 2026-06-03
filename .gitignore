@@ -1,0 +1,7 @@
+.claude/settings.local.json
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+hugo_stats.json
