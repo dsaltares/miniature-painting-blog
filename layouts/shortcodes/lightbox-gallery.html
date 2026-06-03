@@ -21,17 +21,27 @@
 </div>
 {{- if not (.Page.Store.Get "glightbox-loaded") -}}
 {{- .Page.Store.Set "glightbox-loaded" true -}}
-{{- /* Blowfish's gallery grid assets — vendor.html only loads these for its own
-       gallery shortcode, so load them here for ours. */}}
+{{- /* Blowfish's gallery.css provides the grid-w* width classes; the layout
+       itself is a plain flex grid (uniform gaps, left-aligned last row)
+       instead of the theme's Packery masonry. */}}
 {{- with resources.Get "css/components/gallery.css" | fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
 {{- end }}
-{{- with resources.Get "lib/packery/packery.pkgd.min.js" | fingerprint }}
-<script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
-{{- end }}
-{{- with resources.Get "js/shortcodes/gallery.js" | minify | fingerprint }}
-<script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
-{{- end }}
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .gallery .glightbox {
+    margin: 0 !important;
+  }
+  .gallery .glightbox img {
+    display: block;
+    width: 100%;
+    margin: 0 !important;
+  }
+</style>
 {{- with resources.Get "lib/glightbox/glightbox.min.css" | fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
 {{- end }}
