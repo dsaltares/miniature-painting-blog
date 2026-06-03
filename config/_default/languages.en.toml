@@ -12,11 +12,11 @@ title = "Saltares Miniatures"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "A personal blog about miniature painting and wargaming"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "© { year } David Saltares"
 
 [params.author]
-  name = "David Saltares"
-  headline = "Miniature painting & wargaming"
+  name = "Saltares Miniatures"
+  headline = "Miniature painting & wargaming by David Saltares"
   links = [
     { github = "https://github.com/dsaltares" },
   ]
