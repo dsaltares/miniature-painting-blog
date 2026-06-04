@@ -6,6 +6,6 @@ description: "High Elf Archers, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-10 High Elf Archers, arrows nocked.
+Going back to my origins to work on my High Elf army with these 10 High Elf Archers.
 
 {{< lightbox-gallery glob="high-elf-archers-*.jpg" >}}

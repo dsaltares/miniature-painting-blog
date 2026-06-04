@@ -6,6 +6,6 @@ description: "Ellyrian Reavers, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-5 Ellyrian Reavers, the eyes of the army.
+5 Ellyrian Reavers, the mounted skirmishers.
 
 {{< lightbox-gallery glob="ellyrian-reavers-*.jpg" >}}

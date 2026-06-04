@@ -6,6 +6,6 @@ description: "High Elf Spearmen, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-20 High Elf Spearmen, shields locked.
+20 High Elf Spearmen. I gave them quivers and bows so thay they can also play as Lothern Seaguard.
 
 {{< lightbox-gallery glob="high-elf-spearmen-*.jpg" >}}
