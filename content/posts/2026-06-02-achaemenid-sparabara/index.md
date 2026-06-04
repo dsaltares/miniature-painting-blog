@@ -4,7 +4,7 @@ date: 2026-06-02
 draft: false
 aliases: ["/posts/achaemenid-sparabara/"]
 description: "Early Achaemenid Persian Sparabara infantry, painted and based"
-tags: ["Early Achaemenid Empire", "15mm", "Historical"]
+tags: ["Early Achaemenid Empire", "15mm", "Historical", "Triumph!"]
 ---
 
 The Sparabara formed the front ranks of the early Achaemenid Persian army — shield-bearers carrying the large wicker *spara*, protecting the archers massed behind them.
