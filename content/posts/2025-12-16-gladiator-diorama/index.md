@@ -6,6 +6,6 @@ description: "A gladiator diorama, painted and based"
 tags: ["Gladiators", "28mm", "Historical"]
 ---
 
-3 gladiators face a beast in the arena.
+Little diorama inspired in the movie Gladiator with minis by Last Sword Miniatures I made as a Christmas gift for my dad.
 
 {{< lightbox-gallery glob="gladiator-diorama-*.jpg" >}}

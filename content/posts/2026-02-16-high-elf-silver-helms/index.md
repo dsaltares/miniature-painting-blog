@@ -6,6 +6,6 @@ description: "High Elf Silver Helms, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-5 Silver Helms, lances lowered.
+5 Silver Helms.
 
 {{< lightbox-gallery glob="high-elf-silver-helms-*.jpg" >}}

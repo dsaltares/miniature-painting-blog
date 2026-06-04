@@ -6,6 +6,6 @@ description: "Glade Defenders, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-3 Glade Defenders for the Wood Elf warband.
+3 Glade Defenders by OPR for the Wood Elf warband.
 
 {{< lightbox-gallery glob="glade-defenders-*.jpg" >}}

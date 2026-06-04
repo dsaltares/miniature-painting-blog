@@ -1,0 +1,11 @@
+---
+title: "Blood Knights"
+date: 2025-10-09
+draft: false
+description: "Blood Knights, painted and based"
+tags: ["Vampiric Undead", "28mm", "Fantasy"]
+---
+
+5 Blood Knights by Highland Miniatures, the hammer of the undead army.
+
+{{< lightbox-gallery glob="vampire-knights-*.jpg" >}}

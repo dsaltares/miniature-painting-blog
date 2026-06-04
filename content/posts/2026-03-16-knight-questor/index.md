@@ -6,6 +6,6 @@ description: "A Knight-Questor, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-A Knight-Questor on his sacred quest.
+A Knight-Questor on a quest.
 
 {{< lightbox-gallery glob="knight-questor-*.jpg" >}}

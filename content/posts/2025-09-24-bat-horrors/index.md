@@ -6,6 +6,6 @@ description: "Bat Horrors, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-3 Vargheist by One Page Rules.
+3 Vargheist by OPR.
 
 {{< lightbox-gallery glob="bat-horrors-*.jpg" >}}

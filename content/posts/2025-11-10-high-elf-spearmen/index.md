@@ -6,6 +6,6 @@ description: "High Elf Spearmen, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-20 High Elf Spearmen. I gave them quivers and bows so thay they can also play as Lothern Seaguard.
+20 High Elf Spearmen. I gave them quivers and bows so thay they can also be fielded as Lothern Seaguard.
 
 {{< lightbox-gallery glob="high-elf-spearmen-*.jpg" >}}

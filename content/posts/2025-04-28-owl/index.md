@@ -6,6 +6,6 @@ description: "A great owl, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-A great owl.
+A great owl by OPR.
 
 {{< lightbox-gallery glob="eagle-*.jpg" >}}

@@ -5,7 +5,7 @@ draft: false
 description: "A year of painting, in numbers"
 ---
 
-218 miniatures painted across 59 sessions — not bad for the first year back in the hobby.
+218 miniatures painted across 59 sessions. Not bad for the first year back in the hobby!
 
 ## Miniatures per month
 

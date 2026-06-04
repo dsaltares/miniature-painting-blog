@@ -6,6 +6,6 @@ description: "Stormcast Vindictors, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-10 Stormcast Vindictors, spears and shields raised.
+10 Stormcast Vindictors, to start my sigmarines army.
 
 {{< lightbox-gallery glob="stormcast-vindictors-*.jpg" >}}

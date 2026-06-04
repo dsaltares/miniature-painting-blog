@@ -6,6 +6,6 @@ description: "Werewolves, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-6 werewolves, loping ahead of the undead host.
+6 werewolves by OPR. Technically not part of the Vampiric Undead in ToW.
 
 {{< lightbox-gallery glob="werewolves-*.jpg" >}}

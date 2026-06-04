@@ -6,6 +6,6 @@ description: "An insect swarm, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-A beetle swarm to annoy Wood Elf opponents.
+A beetle swarm by OPR to annoy Wood Elf opponents.
 
 {{< lightbox-gallery glob="insect-swarm-*.jpg" >}}
