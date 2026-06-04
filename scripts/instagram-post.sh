@@ -4,14 +4,20 @@
 # Usage:
 #   scripts/instagram-post.sh -c "Caption text" IMAGE_URL [IMAGE_URL...]
 #   scripts/instagram-post.sh --dry-run -c "Caption" IMAGE_URL
+#   scripts/instagram-post.sh --refresh
 #
 # Requires INSTAGRAM_TOKEN in the environment or in .env at the repo root.
 # Image URLs must be public HTTPS JPEGs (e.g. deployed blog images).
 # 2-10 images are published as a carousel.
+#
+# Tokens last 60 days; the script refreshes the token (rewriting .env)
+# after every successful publish, or on demand with --refresh.
 set -euo pipefail
 
 API="https://graph.instagram.com/v23.0"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DRY_RUN=0
+REFRESH_ONLY=0
 CAPTION=""
 IMAGES=()
 
@@ -19,21 +25,44 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     -c|--caption) CAPTION="$2"; shift 2 ;;
     --dry-run) DRY_RUN=1; shift ;;
+    --refresh) REFRESH_ONLY=1; shift ;;
     -h|--help) grep '^#' "$0" | cut -c3-; exit 0 ;;
     *) IMAGES+=("$1"); shift ;;
   esac
 done
 
-[[ ${#IMAGES[@]} -ge 1 && ${#IMAGES[@]} -le 10 ]] || { echo "error: need 1-10 image URLs" >&2; exit 1; }
-[[ -n "$CAPTION" ]] || { echo "error: caption required (-c)" >&2; exit 1; }
 command -v jq >/dev/null || { echo "error: jq is required" >&2; exit 1; }
 
 # Load token from .env at the repo root if not already set
-if [[ -z "${INSTAGRAM_TOKEN:-}" ]]; then
-  ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-  [[ -f "$ROOT/.env" ]] && source "$ROOT/.env"
-fi
+[[ -z "${INSTAGRAM_TOKEN:-}" && -f "$ROOT/.env" ]] && source "$ROOT/.env"
 [[ -n "${INSTAGRAM_TOKEN:-}" ]] || { echo "error: INSTAGRAM_TOKEN not set" >&2; exit 1; }
+
+# Swap the current token for a fresh 60-day one and persist it to .env.
+# Refresh can fail legitimately (e.g. token under 24h old), so warn, don't die.
+refresh_token() {
+  local out new days
+  out="$(curl -sf -G "https://graph.instagram.com/refresh_access_token" \
+    --data-urlencode "grant_type=ig_refresh_token" \
+    --data-urlencode "access_token=$INSTAGRAM_TOKEN")" \
+    || { echo "warn: token refresh failed (tokens under 24h old can't be refreshed)" >&2; return 0; }
+  new="$(jq -r '.access_token // empty' <<<"$out")"
+  [[ -n "$new" ]] || { echo "warn: token refresh returned no token" >&2; return 0; }
+  days="$(( $(jq -r '.expires_in' <<<"$out") / 86400 ))"
+  if [[ -f "$ROOT/.env" ]] && grep -q '^INSTAGRAM_TOKEN=' "$ROOT/.env"; then
+    sed -i '' "s|^INSTAGRAM_TOKEN=.*|INSTAGRAM_TOKEN=$new|" "$ROOT/.env"
+    echo "token refreshed (expires in ${days} days), .env updated"
+  else
+    echo "token refreshed (expires in ${days} days) but .env not found - update INSTAGRAM_TOKEN manually" >&2
+  fi
+}
+
+if [[ $REFRESH_ONLY -eq 1 ]]; then
+  refresh_token
+  exit 0
+fi
+
+[[ ${#IMAGES[@]} -ge 1 && ${#IMAGES[@]} -le 10 ]] || { echo "error: need 1-10 image URLs" >&2; exit 1; }
+[[ -n "$CAPTION" ]] || { echo "error: caption required (-c)" >&2; exit 1; }
 
 api() { # api METHOD PATH [curl args...]
   local method="$1" path="$2"; shift 2
@@ -94,3 +123,6 @@ done
 media="$(api POST me/media_publish --data-urlencode "creation_id=$container" | jq -r '.id')"
 permalink="$(api GET "$media?fields=permalink" | jq -r '.permalink')"
 echo "published: $permalink"
+
+# Keep the token alive: each refresh buys another 60 days
+refresh_token

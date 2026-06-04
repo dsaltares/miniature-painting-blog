@@ -56,6 +56,8 @@ The script loads `INSTAGRAM_TOKEN` from `.env`, creates the media container(s), 
 and prints the post's permalink. Relay the permalink to the user.
 
 Notes:
-- Token is long-lived (~60 days). On auth errors, tell the user to regenerate it in the
-  Meta app dashboard (Instagram → API setup → Generate access tokens) and update `.env`.
+- The script auto-refreshes the token (rewriting `.env`) after each publish, so it only
+  expires after 60 days of no posting. On auth errors, run `scripts/instagram-post.sh --refresh`;
+  if that also fails, the user must regenerate the token in the Meta app dashboard
+  (Instagram → API setup → Generate access tokens) and update `.env`.
 - Rate limit is 100 API posts per 24h — not a practical concern.
