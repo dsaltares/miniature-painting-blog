@@ -6,6 +6,6 @@ description: "Stormcast Liberators, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-Ten Stormcast Liberators, painted in two batches.
+10 Stormcast Liberators, hammers at the ready.
 
 {{< lightbox-gallery glob="stormcast-liberators-*.jpg" >}}

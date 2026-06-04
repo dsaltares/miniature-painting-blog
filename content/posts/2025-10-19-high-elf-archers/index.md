@@ -6,6 +6,6 @@ description: "High Elf Archers, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Ten High Elf Archers, painted in two batches a few months apart.
+10 High Elf Archers, arrows nocked.
 
 {{< lightbox-gallery glob="high-elf-archers-*.jpg" >}}

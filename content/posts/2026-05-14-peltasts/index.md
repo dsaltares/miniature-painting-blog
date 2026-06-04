@@ -6,6 +6,6 @@ description: "Peltasts, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-Three bases of peltasts with their crescent shields.
+3 bases of peltasts with their crescent shields.
 
 {{< lightbox-gallery glob="peltasts-*.jpg" >}}

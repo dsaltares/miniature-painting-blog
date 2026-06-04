@@ -6,6 +6,6 @@ description: "Swordmasters of Hoeth, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Fifteen Swordmasters of Hoeth with their two-handed greatswords, painted in three batches.
+15 Swordmasters of Hoeth, greatswords at the ready.
 
 {{< lightbox-gallery glob="swordmasters-of-hoeth-*.jpg" >}}

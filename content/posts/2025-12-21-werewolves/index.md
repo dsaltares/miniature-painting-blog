@@ -6,6 +6,6 @@ description: "Werewolves, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-Six werewolves.
+6 werewolves, loping ahead of the undead host.
 
 {{< lightbox-gallery glob="werewolves-*.jpg" >}}

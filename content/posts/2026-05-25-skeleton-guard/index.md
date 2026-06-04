@@ -6,6 +6,6 @@ description: "Skeleton Guard, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-Twenty Skeleton Guard, painted in three batches.
+20 Skeleton Guard, standing eternal watch.
 
 {{< lightbox-gallery glob="skeleton-guard-*.jpg" >}}

@@ -6,6 +6,6 @@ description: "Stormcast Vindictors, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-Ten Stormcast Vindictors with spear and shield, painted in two batches.
+10 Stormcast Vindictors, spears and shields raised.
 
 {{< lightbox-gallery glob="stormcast-vindictors-*.jpg" >}}

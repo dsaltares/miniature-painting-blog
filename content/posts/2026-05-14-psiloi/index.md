@@ -6,6 +6,6 @@ description: "Psiloi skirmishers, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-Three bases of psiloi — light skirmishers with javelins and slings.
+3 bases of psiloi, skirmishing ahead of the phalanx.
 
 {{< lightbox-gallery glob="psiloi-*.jpg" >}}

@@ -6,6 +6,6 @@ description: "Spartiate hoplites, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-Sixteen bases of Spartiates — the full citizen hoplites of the Spartan army, painted in three batches.
+16 bases of Spartiates, the core of the Spartan battle line.
 
 {{< lightbox-gallery glob="spartiates-*.jpg" >}}

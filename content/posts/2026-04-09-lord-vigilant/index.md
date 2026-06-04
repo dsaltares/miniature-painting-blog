@@ -6,6 +6,6 @@ description: "A Lord-Vigilant on Gryph-stalker, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-A Lord-Vigilant mounted on a gryph-stalker.
+A Lord-Vigilant on Gryph-stalker, leading the hunt.
 
 {{< lightbox-gallery glob="lord-vigilant-*.jpg" >}}

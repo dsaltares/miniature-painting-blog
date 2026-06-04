@@ -6,6 +6,6 @@ description: "Perioikoi hoplites, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-Thirty-six bases of Perioikoi hoplites, painted in four batches.
+36 bases of Perioikoi hoplites, filling out the Spartan ranks.
 
 {{< lightbox-gallery glob="perioikoi-*.jpg" >}}

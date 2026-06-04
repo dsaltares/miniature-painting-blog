@@ -1,6 +1,6 @@
 ---
 title: "Zombies"
-date: 2025-10-01
+date: 2025-09-16
 draft: false
 description: "OPR zombies, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]

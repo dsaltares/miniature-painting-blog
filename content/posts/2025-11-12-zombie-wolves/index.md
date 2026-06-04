@@ -6,6 +6,6 @@ description: "Zombie wolves, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-Ten zombie wolves, painted in two batches.
+10 zombie wolves, on the hunt once more.
 
 {{< lightbox-gallery glob="zombie-wolves-*.jpg" >}}

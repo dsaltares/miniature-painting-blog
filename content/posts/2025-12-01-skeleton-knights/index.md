@@ -6,6 +6,6 @@ description: "Skeleton Knights, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-Ten Skeleton Knights — undead cavalry painted in two batches.
+10 Skeleton Knights, riding out of the crypt.
 
 {{< lightbox-gallery glob="skeleton-knights-*.jpg" >}}

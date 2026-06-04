@@ -6,6 +6,6 @@ description: "A gladiator diorama, painted and based"
 tags: ["Gladiators", "28mm", "Historical"]
 ---
 
-A small diorama: three gladiators facing a beast in the arena.
+3 gladiators face a beast in the arena.
 
 {{< lightbox-gallery glob="gladiator-diorama-*.jpg" >}}

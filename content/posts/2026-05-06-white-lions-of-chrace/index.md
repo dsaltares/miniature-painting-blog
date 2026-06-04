@@ -6,6 +6,6 @@ description: "White Lions of Chrace, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Nineteen White Lions of Chrace with great axes and lion pelts, painted in four batches.
+19 White Lions of Chrace, axes and lion pelts.
 
 {{< lightbox-gallery glob="white-lions-of-chrace-*.jpg" >}}

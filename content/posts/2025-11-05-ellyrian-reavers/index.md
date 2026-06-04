@@ -6,6 +6,6 @@ description: "Ellyrian Reavers, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Five Ellyrian Reavers, the army's light cavalry.
+5 Ellyrian Reavers, the eyes of the army.
 
 {{< lightbox-gallery glob="ellyrian-reavers-*.jpg" >}}

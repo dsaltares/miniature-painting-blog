@@ -6,6 +6,6 @@ description: "A Lord-Veritant, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-A Lord-Veritant with his Lantern of Abjuration.
+A Lord-Veritant, lantern raised against the dark.
 
 {{< lightbox-gallery glob="lord-veritant-*.jpg" >}}

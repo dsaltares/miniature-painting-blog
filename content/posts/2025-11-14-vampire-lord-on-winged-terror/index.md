@@ -6,6 +6,6 @@ description: "A Vampire Lord on Winged Terror, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-A Vampire Lord mounted on a Winged Terror — the army's centrepiece monster.
+A Vampire Lord on Winged Terror, the army's centrepiece.
 
 {{< lightbox-gallery glob="vampire-lord-on-winged-terror-*.jpg" >}}

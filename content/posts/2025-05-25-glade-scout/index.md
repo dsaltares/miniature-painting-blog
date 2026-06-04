@@ -6,6 +6,6 @@ description: "A Glade Scout, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-A lone Glade Scout.
+A Glade Scout, watching the forest paths.
 
 {{< lightbox-gallery glob="glade-scout-*.jpg" >}}

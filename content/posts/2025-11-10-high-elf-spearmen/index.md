@@ -6,6 +6,6 @@ description: "High Elf Spearmen, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Twenty High Elf Spearmen, painted in four batches between July and November.
+20 High Elf Spearmen, shields locked.
 
 {{< lightbox-gallery glob="high-elf-spearmen-*.jpg" >}}

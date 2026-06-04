@@ -6,6 +6,6 @@ description: "High Elf Eagle Claw Bolt Throwers with crew, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Two Eagle Claw Bolt Throwers, with extra crew figures added later in the year.
+2 Eagle Claw Bolt Throwers with their crews.
 
 {{< lightbox-gallery glob="high-elf-bolt-throwers-*.jpg" >}}

@@ -6,6 +6,6 @@ description: "Skeleton Warriors, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-Forty rank-and-file Skeleton Warriors, painted ten at a time.
+40 Skeleton Warriors, raised rank by rank.
 
 {{< lightbox-gallery glob="skeleton-warriors-*.jpg" >}}

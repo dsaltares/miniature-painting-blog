@@ -6,6 +6,6 @@ description: "A Vampire Lord on foot, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-A Vampire Lord on foot.
+A Vampire Lord, leading the undead legions.
 
 {{< lightbox-gallery glob="vampire-lord-*.jpg" >}}

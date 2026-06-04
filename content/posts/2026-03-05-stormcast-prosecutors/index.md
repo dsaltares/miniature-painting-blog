@@ -6,6 +6,6 @@ description: "Stormcast Prosecutors, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-Three winged Stormcast Prosecutors.
+3 Stormcast Prosecutors, striking from the skies.
 
 {{< lightbox-gallery glob="stormcast-prosecutors-*.jpg" >}}

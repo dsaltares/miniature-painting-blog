@@ -6,6 +6,6 @@ description: "Imrik on dragon, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Imrik, Dragon Prince of Caledor, mounted on his dragon.
+Imrik, Dragon Prince of Caledor, taking to the skies.
 
 {{< lightbox-gallery glob="imrik-on-dragon-*.jpg" >}}
