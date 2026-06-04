@@ -2,6 +2,7 @@
 title: "Achaemenid Sparabara"
 date: 2026-06-02
 draft: false
+aliases: ["/posts/achaemenid-sparabara/"]
 description: "Early Achaemenid Persian Sparabara infantry, painted and based"
 tags: ["Early Achaemenid Empire", "15mm", "Historical"]
 ---
