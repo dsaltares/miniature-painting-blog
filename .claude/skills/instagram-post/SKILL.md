@@ -1,6 +1,6 @@
 ---
 name: instagram-post
-description: Draft Instagram captions for a blog post (or any article URL), get approval, then publish to @saltares.miniatures via scripts/instagram-post.sh. Use when the user pastes an article link and wants a social media post, or says "post this to Instagram".
+description: Draft Instagram captions for a blog post (or any article URL), get approval, then publish to @saltares.miniatures via the social-media-automation CLI. Use when the user pastes an article link and wants a social media post, or says "post this to Instagram".
 ---
 
 # Instagram post from article
@@ -46,18 +46,22 @@ if the post has more, propose the best 10 and let them swap.
 Pre-check that every image URL returns HTTP 200 — for a brand-new blog post this fails
 until the post is merged to `main` and deployed; tell the user to deploy first if so.
 
-Then:
+Then, from the repo root (Node >= 24, see `social-media-automation/.nvmrc`):
 
 ```sh
-scripts/instagram-post.sh -c "<approved caption>" <image_url> [<image_url>...]
+node social-media-automation/src/cli.ts post instagram -c "<approved caption>" <image_url> [<image_url>...]
 ```
 
-The script loads `INSTAGRAM_TOKEN` from `.env`, creates the media container(s), publishes,
-and prints the post's permalink. Relay the permalink to the user.
+The CLI loads `INSTAGRAM_TOKEN` from the root `.env`, creates the media container(s),
+publishes, and prints the post's permalink. Relay the permalink to the user.
+Add `--dry-run` to validate images and caption without publishing.
 
 Notes:
-- The script auto-refreshes the token (rewriting `.env`) after each publish, so it only
-  expires after 60 days of no posting. On auth errors, run `scripts/instagram-post.sh --refresh`;
-  if that also fails, the user must regenerate the token in the Meta app dashboard
+- The CLI auto-refreshes the token (rewriting `.env`) after each publish, so it only
+  expires after 60 days of no posting. On auth errors, run
+  `node social-media-automation/src/cli.ts refresh instagram`; if that also fails, the
+  user must regenerate the token in the Meta app dashboard
   (Instagram → API setup → Generate access tokens) and update `.env`.
+- `node social-media-automation/src/cli.ts verify instagram` checks the token without posting.
+- Other platforms are added as adapters in `social-media-automation/src/adapters/`.
 - Rate limit is 100 API posts per 24h — not a practical concern.
