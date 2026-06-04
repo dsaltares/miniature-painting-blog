@@ -6,6 +6,6 @@ description: "Three treemen, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-Three treemen for the woodland force.
+3 treemen by One Page Rules to start off a Wood Elf skirmish warband.
 
 {{< lightbox-gallery glob="treemen-*.jpg" >}}

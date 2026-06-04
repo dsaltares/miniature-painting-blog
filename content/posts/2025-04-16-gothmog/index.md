@@ -6,6 +6,6 @@ description: "Gothmog on foot and on warg, painted and based"
 tags: ["Mordor", "28mm", "Fantasy", "Middle Earth Strategy Battle Game"]
 ---
 
-Gothmog, Lieutenant of the Morannon — one on foot, one mounted on a warg.
+Gothmog, Lieutenant of the Morannon — one on foot, one mounted on a warg. Feeling quite smug after dodging a huge boulder.
 
 {{< lightbox-gallery glob="gothmog-*.jpg" >}}

@@ -6,6 +6,6 @@ description: "A Space Marine, painted and based"
 tags: ["Space Marines", "28mm", "Sci-Fi"]
 ---
 
-A Space Marine, painted for a local painting competition.
+A Salamander Space Marine, painted for a local speed-painting competition.
 
 {{< lightbox-gallery glob="space-marine-*.jpg" >}}

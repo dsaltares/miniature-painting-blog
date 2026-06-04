@@ -6,6 +6,6 @@ description: "Tiranoc Chariots, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Two Tiranoc Chariots.
+2 Tiranoc Chariots.
 
 {{< lightbox-gallery glob="tiranoc-chariots-*.jpg" >}}

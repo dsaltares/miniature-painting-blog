@@ -6,6 +6,6 @@ description: "Yrana, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-Yrana, a hero for the wood elf force.
+Yrana, a hero witch for the wood elf force.
 
 {{< lightbox-gallery glob="yrana-*.jpg" >}}

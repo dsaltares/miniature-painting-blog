@@ -6,6 +6,6 @@ description: "Rangers of Gondor, painted and based"
 tags: ["Gondor", "28mm", "Fantasy", "Middle Earth Strategy Battle Game"]
 ---
 
-Twelve Rangers of Gondor in greens and browns, painted in two batches.
+12 Rangers of Gondor in sneaky greens and browns.
 
 {{< lightbox-gallery glob="rangers-of-gondor-*.jpg" >}}

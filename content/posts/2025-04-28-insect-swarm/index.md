@@ -1,11 +1,11 @@
 ---
-title: "Insect Swarm"
+title: "Bettle Swarm"
 date: 2025-04-28
 draft: false
 description: "An insect swarm, painted and based"
 tags: ["Wood Elves", "28mm", "Fantasy"]
 ---
 
-A swarm of insects on a single base.
+A beetle swarm to annoy Wood Elf opponents.
 
 {{< lightbox-gallery glob="insect-swarm-*.jpg" >}}
