@@ -6,6 +6,6 @@ description: "Stormcast Reclusians, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-3 Stormcast Reclusians, grim and penitent.
+3 Stormcast Reclusians.
 
 {{< lightbox-gallery glob="stormcast-reclusians-*.jpg" >}}

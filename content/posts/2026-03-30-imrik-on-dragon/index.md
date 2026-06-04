@@ -6,6 +6,6 @@ description: "Imrik on dragon, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-Imrik, Dragon Prince of Caledor, taking to the skies.
+Imrik, Dragon Prince of Caledor. I had this mini for over 15 years before I painted it.
 
 {{< lightbox-gallery glob="imrik-on-dragon-*.jpg" >}}

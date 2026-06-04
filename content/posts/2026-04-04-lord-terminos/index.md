@@ -6,6 +6,6 @@ description: "A Lord-Terminos, painted and based"
 tags: ["Stormcast Eternals", "28mm", "Fantasy"]
 ---
 
-A Lord-Terminos, scythe in hand.
+Lord-Terminos, from the Skaventide set.
 
 {{< lightbox-gallery glob="lord-terminos-*.jpg" >}}

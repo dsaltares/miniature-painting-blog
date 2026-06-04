@@ -6,6 +6,6 @@ description: "Skeleton Warriors, painted and based"
 tags: ["Vampiric Undead", "28mm", "Fantasy"]
 ---
 
-40 Skeleton Warriors, raised rank by rank.
+40 Skeletons from Oathmark. Because you need a ton of them!
 
 {{< lightbox-gallery glob="skeleton-warriors-*.jpg" >}}

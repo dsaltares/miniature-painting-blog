@@ -6,6 +6,6 @@ description: "Swordmasters of Hoeth, painted and based"
 tags: ["High Elves", "28mm", "Fantasy"]
 ---
 
-15 Swordmasters of Hoeth, greatswords at the ready.
+15 Swordmasters of Hoeth, painted over quite a few sessions.
 
 {{< lightbox-gallery glob="swordmasters-of-hoeth-*.jpg" >}}
