@@ -8,9 +8,21 @@ description: Draft social media posts for a blog post (or any article URL), get 
 Turn an article (usually a post from this blog) into approved, published social media posts.
 
 Input in `$ARGUMENTS`: a URL or post slug, and optionally one or more platform names.
-If the URL is missing, ask for it.
 
-## 1. Pick platforms
+## 1. Pick the article
+
+If no URL/slug was given, list the most recent blog posts (newest first by the `date`
+field in their frontmatter):
+
+```sh
+grep -H '^date:' content/posts/*/index.md | sort -t: -k2 -r | head -4
+```
+
+Then use AskUserQuestion (single-select) with those posts as options — title as the
+label, date + description from the frontmatter as the description. If the user wants
+something older or external, they can give a URL via "Other".
+
+## 2. Pick platforms
 
 Available platforms are the keys of the `adapters` record in
 `social-media-automation/src/cli.ts` (one per adapter in `social-media-automation/src/adapters/`).
@@ -20,7 +32,7 @@ Available platforms are the keys of the `adapters` record in
   If only one platform exists, just confirm it as part of caption approval instead of
   asking separately.
 
-## 2. Gather content
+## 3. Gather content
 
 - **Own blog post** (`miniatures.saltares.com/posts/<slug>/` or a bare slug): read
   `content/posts/<slug>/index.md` and list the images in that bundle. Prefer the local
@@ -30,7 +42,7 @@ Available platforms are the keys of the `adapters` record in
 
 Deployed image URL pattern for blog posts: `https://miniatures.saltares.com/posts/<slug>/<filename>`.
 
-## 3. Draft captions
+## 4. Draft captions
 
 Write 2–3 caption variants **per selected platform** — don't reuse one caption across
 platforms with different limits and cultures.
@@ -50,7 +62,7 @@ Per platform:
   tags specific to the subject (era, game system, manufacturer, technique). Keep well
   under the 2,200-char limit. Carousels take 2–10 images.
 
-## 4. Approve
+## 5. Approve
 
 Use AskUserQuestion to have the user pick a caption variant per platform (show each as
 a preview) and confirm image selection/order. Apply any edits they ask for. If the post
@@ -58,7 +70,7 @@ has more images than the platform allows, propose the best ones and let them swa
 
 **Never publish without explicit approval of the final caption + images.**
 
-## 5. Publish
+## 6. Publish
 
 Pre-check that every image URL returns HTTP 200 — for a brand-new blog post this fails
 until the post is merged to `main` and deployed; tell the user to deploy first if so.
