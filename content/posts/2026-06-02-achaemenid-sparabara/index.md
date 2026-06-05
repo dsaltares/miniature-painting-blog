@@ -7,6 +7,8 @@ description: "Early Achaemenid Persian Sparabara infantry, painted and based"
 tags: ["Early Achaemenid Empire", "15mm", "Historical", "Triumph!"]
 ---
 
-The Sparabara formed the front ranks of the early Achaemenid Persian army — shield-bearers carrying the large wicker *spara*, protecting the archers massed behind them.
+To fight the Spartans and re-enact scenarios from the Greco-Persian wars, I am assembling an Early Achaemenid Empire army with miniatures by Xyston.
+
+Here are 2 stands of Sparabara (shield bearers). The front ranks used their spears and spara to protect the rear ranks of archers.
 
 {{< lightbox-gallery glob="sparabara-*-crop.jpg" >}}

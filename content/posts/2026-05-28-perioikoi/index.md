@@ -6,6 +6,6 @@ description: "Perioikoi hoplites, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-36 bases of Perioikoi hoplites, filling out the Spartan ranks.
+9 stands of Perioikoi hoplites with a mix of equipment. You can see Corinthian, Chalcidian and Pilos style helmets. For the aspis emblems, I took initials and symbols related to Lakonian cities.
 
 {{< lightbox-gallery glob="perioikoi-*.jpg" >}}
