@@ -6,6 +6,6 @@ description: "A Spartan general command stand, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-A Spartan general and his retinue, leading from the front.
+The Spartan general stand by Xyston. It could represent Leonidas at Thermopilae or Pausanias at Plataea.
 
 {{< lightbox-gallery glob="spartan-general-*.jpg" >}}

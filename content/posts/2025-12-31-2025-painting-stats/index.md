@@ -25,7 +25,7 @@ data: {
 {{< chart >}}
 type: 'doughnut',
 data: {
-  labels: ['Vampiric Undead', 'High Elves', 'Gondor', 'Mordor', 'Wood Elves', 'Gladiators', 'Space Marines'],
+  labels: ['Vampire Counts', 'High Elves', 'Gondor', 'Mordor', 'Wood Elves', 'Gladiators', 'Space Marines'],
   datasets: [{
     label: 'Miniatures painted',
     data: [89, 54, 31, 27, 12, 4, 1],

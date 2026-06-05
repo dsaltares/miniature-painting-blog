@@ -6,6 +6,6 @@ description: "Peltasts, painted and based"
 tags: ["Spartans", "15mm", "Historical", "Triumph!"]
 ---
 
-3 bases of peltasts with their crescent shields.
+A stand of peltasts by Xyston with javelins and crescent shields.
 
 {{< lightbox-gallery glob="peltasts-*.jpg" >}}

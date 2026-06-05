@@ -3,7 +3,7 @@ title: "Bat Horrors"
 date: 2025-09-24
 draft: false
 description: "Bat Horrors, painted and based"
-tags: ["Vampiric Undead", "28mm", "Fantasy"]
+tags: ["Vampire Counts", "28mm", "Fantasy"]
 ---
 
 3 Vargheist by OPR.
