@@ -18,6 +18,9 @@ title = "Saltares Miniatures"
   name = "David Saltares"
   image = "img/author.jpg"
   headline = "Miniature painting & wargaming"
+  links = [
+    { instagram = "https://www.instagram.com/saltares.miniatures/" },
+  ]
 
 # [params.author]
 #   name = "Your name here"
