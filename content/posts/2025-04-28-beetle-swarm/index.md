@@ -1,5 +1,5 @@
 ---
-title: "Bettle Swarm"
+title: "Beetle Swarm"
 date: 2025-04-28
 draft: false
 description: "An insect swarm, painted and based"
