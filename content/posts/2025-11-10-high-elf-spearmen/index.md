@@ -3,7 +3,7 @@ title: "High Elf Spearmen"
 date: 2025-11-10
 draft: false
 description: "High Elf Spearmen, painted and based"
-tags: ["High Elves", "28mm", "Fantasy"]
+tags: ["High Elves", "28mm", "Fantasy", "The Old World", "One Page Rules"]
 ---
 
 20 High Elf Spearmen. I gave them quivers and bows so thay they can also be fielded as Lothern Seaguard.

@@ -3,7 +3,7 @@ title: "White Lions of Chrace"
 date: 2026-05-06
 draft: false
 description: "White Lions of Chrace, painted and based"
-tags: ["High Elves", "28mm", "Fantasy"]
+tags: ["High Elves", "28mm", "Fantasy", "The Old World", "One Page Rules"]
 ---
 
 19 White Lions of Chrace, axes and lion pelts.

@@ -3,7 +3,7 @@ title: "Zombies"
 date: 2025-09-16
 draft: false
 description: "OPR zombies, painted and based"
-tags: ["Vampire Counts", "28mm", "Fantasy"]
+tags: ["Vampire Counts", "28mm", "Fantasy", "The Old World", "One Page Rules"]
 ---
 
 20 zombies from the OPR range to start off my Vampire Counts army for The Old World.

@@ -3,7 +3,7 @@ title: "Owl"
 date: 2025-04-28
 draft: false
 description: "A great owl, painted and based"
-tags: ["Wood Elves", "28mm", "Fantasy"]
+tags: ["Wood Elves", "28mm", "Fantasy", "One Page Rules"]
 ---
 
 A great owl by OPR.

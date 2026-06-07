@@ -3,7 +3,7 @@ title: "Zombie Peasants & Warriors"
 date: 2025-11-19
 draft: false
 description: "Highlands Miniatures zombie peasants and warriors, painted and based"
-tags: ["Vampire Counts", "28mm", "Fantasy"]
+tags: ["Vampire Counts", "28mm", "Fantasy", "The Old World", "One Page Rules"]
 ---
 
 20 zombie peasants and warriors, by Highland Miniatures. Fresh from the ground.
