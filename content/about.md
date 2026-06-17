@@ -7,6 +7,8 @@ showReadingTime: false
 showTableOfContents: false
 ---
 
+{{< author-pic >}}
+
 Hi, I'm David.
 
 Back in the early 2000s, when I was in secondary school, I got my first Warhammer Fantasy miniatures and started collecting High Elves. There were no Youtube tutorials. I only had the instructions in the box.

@@ -1,0 +1,15 @@
+{{- /*
+  Rounded author photo, pulled from assets/img/author.jpg and resized.
+
+  Usage: {{< author-pic >}}
+  Optional: size="160" (rendered diameter in px)
+*/ -}}
+{{- $size := .Get "size" | default "160" -}}
+{{- with resources.Get "img/author.jpg" -}}
+{{- $img := .Resize (printf "%dx webp q90" (mul (int $size) 2)) -}}
+<img src="{{ $img.RelPermalink }}" alt="{{ site.Params.Author.name | default "Author" }}"
+  width="{{ $size }}" height="{{ $size }}" loading="lazy"
+  style="border-radius:9999px;width:{{ $size }}px;height:{{ $size }}px;object-fit:cover;display:block;margin:0 auto 1.5rem" />
+{{- else -}}
+  {{- warnf "author-pic: img/author.jpg not found in assets" -}}
+{{- end -}}
