@@ -4,6 +4,7 @@ type: "armies"
 # Curated list of army/faction tags, in display order.
 # Each entry must match a tag used in posts; add or reorder freely.
 armies:
+  - "Blood Angels"
   - "Early Achaemenid Empire"
   - "Gladiators"
   - "Gondor"
