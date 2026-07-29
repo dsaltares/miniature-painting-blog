@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <header class="mt-5">
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+
+  {{ with .Content }}
+    <section class="mt-4 prose dark:prose-invert max-w-prose">
+      {{ . }}
+    </section>
+  {{ end }}
+
+  {{/* Armies are curated tags. The list and its order come from the
+       `armies` front matter in content/armies/_index.md. Each entry is
+       resolved to its tag term page for the correct title, URL and count. */}}
+  <section class="mt-6 max-w-prose">
+    <ul class="space-y-3">
+      {{ range .Params.armies }}
+        {{ with site.GetPage (printf "/tags/%s" (. | urlize)) }}
+          <li class="flex items-center">
+            <a
+              class="text-xl font-medium decoration-primary-500 hover:underline hover:underline-offset-2"
+              href="{{ .RelPermalink }}"
+              >{{ .Title }}</a
+            >
+            {{ if site.Params.taxonomy.showTermCount | default true }}
+              <span class="px-2 text-base text-primary-500">&middot;</span>
+              <span class="text-base text-neutral-400">{{ len .Pages }}</span>
+            {{ end }}
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
