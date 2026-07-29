@@ -6,6 +6,6 @@ description: "Early Achaemenid Persian Kissian archers, painted and based"
 tags: ["Early Achaemenid Empire", "15mm", "Historical", "Triumph!"]
 ---
 
-A stand of 4 Kissian archers by Xyston. It's always fun to pain Achaemenid soldiers with different colours and patterns.
+A stand of 4 Kissian archers by Xyston. It's always fun to paint Achaemenid soldiers with different colours and patterns.
 
 {{< lightbox-gallery glob="kissian-archers-*.jpg" >}}
