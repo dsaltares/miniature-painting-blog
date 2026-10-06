@@ -9,6 +9,7 @@ armies:
   - "Gladiators"
   - "Gondor"
   - "High Elves"
+  - "Late Western Roman Empire"
   - "Mordor"
   - "Orks"
   - "Space Marines"
