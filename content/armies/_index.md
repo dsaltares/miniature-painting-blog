@@ -5,6 +5,7 @@ type: "armies"
 # Each entry must match a tag used in posts; add or reorder freely.
 armies:
   - "Blood Angels"
+  - "Chaos"
   - "Early Achaemenid Empire"
   - "Gladiators"
   - "Gondor"
