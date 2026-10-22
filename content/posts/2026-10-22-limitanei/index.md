@@ -6,6 +6,6 @@ description: "Limitanei, painted and based"
 tags: ["Late Western Roman Empire", "15mm", "Historical", "Triumph!"]
 ---
 
-A stand of Limitanei, border auxilia for my Late Imperial Western Roman army.
+A stand of Limitanei, border auxilia for my Late Imperial Western Roman army. Miniatures by Forged in Battle.
 
 {{< lightbox-gallery glob="limitanei-*.jpg" >}}
