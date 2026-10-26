@@ -15,7 +15,7 @@
   <section class="mt-6 max-w-prose">
     <ul class="space-y-3">
       {{ range .Params.armies }}
-        {{ with site.GetPage (printf "/tags/%s" (. | urlize)) }}
+        {{ with site.GetPage (printf "/tags/%s" .) }}
           <li class="flex items-center">
             <a
               class="text-xl font-medium decoration-primary-500 hover:underline hover:underline-offset-2"

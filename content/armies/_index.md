@@ -7,6 +7,7 @@ armies:
   - "Blood Angels"
   - "Chaos"
   - "Early Achaemenid Empire"
+  - "Er'Sael Orcs"
   - "Gladiators"
   - "Gondor"
   - "High Elves"
