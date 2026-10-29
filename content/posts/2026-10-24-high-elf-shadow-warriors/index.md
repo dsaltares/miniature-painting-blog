@@ -6,6 +6,6 @@ description: "High Elf Shadow Warriors, painted and based"
 tags: ["High Elves", "28mm", "Fantasy", "The Old World", "One Page Rules"]
 ---
 
-5 Shadow Warriors, some 7th edition Warhammer Fantasy nostalgia.
+10 Shadow Warriors, some 7th edition Warhammer Fantasy nostalgia.
 
 {{< lightbox-gallery glob="high-elf-shadow-warriors-*.jpg" >}}
