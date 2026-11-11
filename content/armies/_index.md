@@ -18,5 +18,6 @@ armies:
   - "Spartans"
   - "Stormcast Eternals"
   - "Vampire Counts"
+  - "Western Arnyaran Quar"
   - "Wood Elves"
 ---
